@@ -1,10 +1,10 @@
 import java.util.Scanner;
 
-public class Main {
-	public static void main(String[] args) {
-
+public class AddArrayNumbers {
+    public static void main(String[] args) {
+ 
         Scanner scanner = new Scanner(System.in);
-
+     
         System.out.println("Enter the number of elements in the array:");
         int n = scanner.nextInt();
 
@@ -15,13 +15,25 @@ public class Main {
             numbers[i] = scanner.nextInt();
         }
 
-        int sum = 0;
-        for (int num : numbers) {
-            sum += num;
-        }
+        System.out.println("Enter the multiplier:");
+        int multiplier = scanner.nextInt();
 
-        System.out.println("The sum of the array numbers is: " + sum);
+        int[] multipliedArray = multiplyArray(numbers, multiplier);
         
+        System.out.println("The new array with multiplied numbers is:");
+        for (int num : multipliedArray) {
+            System.out.print(num + " ");
+        }
+        System.out.println();
+
         scanner.close();
+    }
+
+    public static int[] multiplyArray(int[] array, int multiplier) {
+        int[] result = new int[array.length];
+        for (int i = 0; i < array.length; i++) {
+            result[i] = array[i] * multiplier;
+        }
+        return result;
     }
 }
