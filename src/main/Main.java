@@ -27,6 +27,8 @@ public class Main {
 
         System.out.println("The sorted array is: " + Arrays.toString(numbers));
 
+        System.out.println("The avg value of the array is: " + calculateAverage(numbers));
+
         scanner.close();
     }
 
