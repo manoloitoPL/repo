@@ -33,4 +33,12 @@ public class Main {
     public static void sortArray(int[] array) {
         Arrays.sort(array);
     }
+
+    public static double calculateAverage(int[] array) {
+        int sum = 0;
+        for (int num : array) {
+            sum += num;
+        }
+        return (double) sum / array.length;
+    }
 }
