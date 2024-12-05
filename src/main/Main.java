@@ -33,12 +33,4 @@ public class Main {
         scanner.close();
     }
 
-    // Function to return an array of squared numbers
-    public static int[] squareNumbers(int[] numbers) {
-        int[] squared = new int[numbers.length];
-        for (int i = 0; i < numbers.length; i++) {
-            squared[i] = numbers[i] * numbers[i]; // Squaring each number
-        }
-        return squared;
-    }
 }
