@@ -87,3 +87,18 @@ We can view the commits that were done with the log option
 To checkout different versions (m) we can select from the log display menu
 
 ![2 6](https://github.com/user-attachments/assets/772e3ddb-aa83-4745-b2b7-3c3fb6e57008)
+
+To create a branch or a tag we select from here: 
+
+![4](https://github.com/user-attachments/assets/f0716cb3-46c8-42eb-bbba-ce86af3c53a1)
+
+For example, to create a tag the displays are the following ones:
+
+![4 2](https://github.com/user-attachments/assets/fff3647a-1027-4c18-97ec-5105dd2420c3)
+
+![4 1](https://github.com/user-attachments/assets/6e417980-7c6b-4eb0-87d4-a6009ff36973)
+
+To do a push you select from the same menus as from commit, pull, etc.
+
+![2 5](https://github.com/user-attachments/assets/3f554b88-954c-4687-9d27-69f6fc44b182)
+
