@@ -70,7 +70,7 @@ After doing commits and pull we managed to solve it
 ![Captura de pantalla 2024-12-05 124829](https://github.com/user-attachments/assets/1f3df0e5-fe4a-424a-882e-e59552b723bc)
 
 ### InteliJ operations
-In this part I show how these operations can be made directly from the IDE.
+In this part I show how some of these operations can be made directly from the IDE.
 Firstly we clone the repository. (b)
 
 ![1](https://github.com/user-attachments/assets/b766fed3-0399-49c9-b3f7-7954c622146e)
