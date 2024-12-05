@@ -44,6 +44,28 @@ Then I deleted the local repository and cloned it from the remote one.
 
 ![s](https://github.com/user-attachments/assets/f7901334-9616-4e30-a231-eccfd976876c)
 
-Then 
+I use the tag and branches functionalities. I created them and switched between them.  
 
+![t](https://github.com/user-attachments/assets/9fab88b0-3bc4-4d73-9c15-5e4bd86ea93c)
+
+![t2](https://github.com/user-attachments/assets/67b048e3-1a77-4fe0-b8e8-71923f73243a)
+
+I improved my code in one branch and merge (x) (y)
+
+![x-y](https://github.com/user-attachments/assets/3357c1e2-65d0-4089-8d5b-d9659df61d91)
+
+I also worked with a friend, Laura, to create conflict in my repository.
+
+![Captura de pantalla 2024-12-05 122947](https://github.com/user-attachments/assets/3e133804-04d6-4e1a-ace1-11b82de58b3a)
+
+She changed one line of the code and so did I. When I tried to commit we found the conflict below
+
+![Captura de pantalla 2024-12-05 123552](https://github.com/user-attachments/assets/19aacc1c-963b-4241-bf97-41132816bb6d)
+
+After doing commits and pull we managed to solve it
+![Captura de pantalla 2024-12-05 125036](https://github.com/user-attachments/assets/a2eec2e5-b8e3-4776-813f-92bd9bcfedfd)
+
+![image](https://github.com/user-attachments/assets/bc42e036-dc0f-453c-b7c2-09ab0703c786)
+
+![Captura de pantalla 2024-12-05 124829](https://github.com/user-attachments/assets/1f3df0e5-fe4a-424a-882e-e59552b723bc)
 
