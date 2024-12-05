@@ -1,11 +1,11 @@
 import java.util.Scanner;
 
 public class Main {
-	public static void main(String[] args) {
+    public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Enter the number of elements in the array:");
+        System.out.println("Enter the number of elements in the array: ");
         int n = scanner.nextInt();
 
         int[] numbers = new int[n];
@@ -21,7 +21,24 @@ public class Main {
         }
 
         System.out.println("The sum of the array numbers is: " + sum);
-        
+
+        // Calling the function to get the squared numbers array
+        int[] squaredNumbers = squareNumbers(numbers);
+
+        System.out.println("The squared numbers are:");
+        for (int num : squaredNumbers) {
+            System.out.print(num + " ");
+        }
+
         scanner.close();
+    }
+
+    // Function to return an array of squared numbers
+    public static int[] squareNumbers(int[] numbers) {
+        int[] squared = new int[numbers.length];
+        for (int i = 0; i < numbers.length; i++) {
+            squared[i] = numbers[i] * numbers[i]; // Squaring each number
+        }
+        return squared;
     }
 }
