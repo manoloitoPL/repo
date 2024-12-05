@@ -69,3 +69,21 @@ After doing commits and pull we managed to solve it
 
 ![Captura de pantalla 2024-12-05 124829](https://github.com/user-attachments/assets/1f3df0e5-fe4a-424a-882e-e59552b723bc)
 
+### InteliJ operations
+In this part I show how these operations can be made directly from the IDE.
+Firstly we clone the repository. (b)
+
+![1](https://github.com/user-attachments/assets/b766fed3-0399-49c9-b3f7-7954c622146e)
+
+After that we can do the first commit. (c)
+
+![2 2](https://github.com/user-attachments/assets/4e2c3833-a172-4da9-9499-8ee817f295cb)
+
+![2 3](https://github.com/user-attachments/assets/5be22c41-73d5-4255-b0fd-59d3f20e95d4)
+
+We can view the commits that were done with the log option
+![3](https://github.com/user-attachments/assets/ad417a17-dc14-469b-a52c-29c7c90465a7)
+
+To checkout different versions (m) we can select from the log display menu
+
+![2 6](https://github.com/user-attachments/assets/772e3ddb-aa83-4745-b2b7-3c3fb6e57008)
