@@ -5,7 +5,7 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Enter the number of elements in the array: edited");
+        System.out.println("Enter the number of elements in the array: ");
         int n = scanner.nextInt();
 
         int[] numbers = new int[n];
