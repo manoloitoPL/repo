@@ -1,7 +1,8 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
-	public static void main(String[] args) {
+    public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
 
@@ -21,7 +22,15 @@ public class Main {
         }
 
         System.out.println("The sum of the array numbers is: " + sum);
-        
+
+        sortArray(numbers);
+
+        System.out.println("The sorted array is: " + Arrays.toString(numbers));
+
         scanner.close();
+    }
+
+    public static void sortArray(int[] array) {
+        Arrays.sort(array);
     }
 }
